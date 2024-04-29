@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    padding: 20px 20px 22px 20px;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+    height: 50px;
+}
+
+.logo {
+    width: 24px; 
+    height: 24px;
+}
+
+.containerlogo { 
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.containerlogo:hover {
+    background: #DCDCDC;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pesquisa-mae {
+    position: relative;
+}
+
+#search {
+    background-color: #DCDCDC;
+     border: none;
+     border-radius: 25px;
+     height: 48px;
+     width: 798px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     padding: 0px 0px 0 32px;
+}
+
+#search:focus-visible {
+    outline: none;
+}
+
+.lupa {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    height: 16px;
+    width: 16px;
+}
+
+.menu {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.menu-principal {
+    color: #fff;
+    background-color: #111;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 0;
+}
+
+.menus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    height: 48px;
+}
+
+.icones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 130px;
+    cursor: pointer;
+}
+
+.notificacoes {
+   width: 20px;
+   height: 24px;
+}
+
+.container-notificacoes {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.container-notificacoes:hover {
+    background: #DCDCDC;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat {
+   width: 22px;
+   height: 24px;
+}
+
+.foto-perfil {
+   width: 24px;
+   height: 24px;
+}
+
+.seta-baixo {
+   height: 7px;
+   width: 12px;
+}
+
+#estilo {
+    margin: 0;
+    padding: 100px 0 0 0;
+    box-sizing: border-box;
+}
+
+.container {
+    columns: 5;
+    column-gap: 15px;
+    padding: 0 45px 0 45px;
+}
+
+.one {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 18px;
+}
+
+.video {
+    border-radius: 18px;
+    border: none;
+}
