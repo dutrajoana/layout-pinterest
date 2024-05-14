@@ -10,11 +10,13 @@ Clone este repositório em sua máquina local usando o seguinte comando:
 
 Copiar código
 ```bash
-git clone https://github.com/seu-usuario/clone-pinterest.git´´´
+git clone https://github.com/seu-usuario/clone-pinterest.git
+```
 
 Abra o arquivo index.html em seu navegador da web para visualizar a página clonada.
 
 ![image](https://github.com/dutrajoana/layout-pinterest/assets/168354921/f4a3eae2-b2dd-4060-bd16-416918f66b52)
+
 Dentro do repositório existe uma pasta onde está armazenada todas as imagens do projeto.
 
 **Contribuição:**
